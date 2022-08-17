@@ -37,7 +37,7 @@ books =[
     },
 ]
 
-#each
+#each is similar to for each method in javscript
 #this loops through the array
 def print_books
     books.each do |b|
@@ -46,5 +46,22 @@ def print_books
     end
 end
 
-#collects -loops through array and return to new array
+#collects -loops through array and return to new array best on condition
 #it is similar to map method in javascript
+#map/collect -you can use both 
+new_books_array = books.collect do |b|
+      b[:title]
+      
+end
+
+# puts new_books_array
+
+
+#select-lets us iterate through an array and allow us to perfom some test depending on the results of that test if either true or false.
+#in javascript is filter method
+cheaper = books.select do |b|
+    b[:prices] < 25
+end
+
+ binding.pry  
+  # - so that anytime we make loop, it will stop
