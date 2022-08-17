@@ -38,4 +38,13 @@ books =[
 ]
 
 #each
-books.each do |b|
+#this loops through the array
+def print_books
+    books.each do |b|
+        # binding.pry - so that anytime we make loop, it will stop
+        puts b
+    end
+end
+
+#collects -loops through array and return to new array
+#it is similar to map method in javascript
