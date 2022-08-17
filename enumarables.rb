@@ -63,5 +63,18 @@ cheaper = books.select do |b|
     b[:prices] < 25
 end
 
+
+
+#find- is simillar select and filter where we put a test and return the first truthy statement.
+publisher= books.find do |b|
+    b[:publisher] == "codemy.com"
+end
+
+
+#sum -allow us to sum up totl 
+#reduce- is used in javascript
+total = books.sum do |b|
+    b[:prices]
+end
  binding.pry  
   # - so that anytime we make loop, it will stop
