@@ -3,7 +3,7 @@
 
 # enumerable, traversal ,searching and sorting
 
- books =[
+# books =[
     {
         title:'intro to ruby programming beginner',
         prices: 23.29,
@@ -36,7 +36,7 @@
         publisher: 'moshmoji.com',
        description:'great introduction to html for new programmers'
     },
- ]
+# ]
 
 # each is similar to for each method in javscript
 # this loops through the array
