@@ -31,7 +31,7 @@ books =[
         title:'intro to html programming beginner',
         prices: 13.29,
         aurthor:'benjamin stroutrup',
-        rating:2.2,
+        rating:0.2,
         publisher: 'moshmoji.com',
         description:'great introduction to html for new programmers'
     },
@@ -76,5 +76,16 @@ end
 total = books.sum do |b|
     b[:prices]
 end
+
+
+# total = books.sum{|b| b[:prices]} - we can also shorten the program to this extent
+
+#max is used to find the highest value 
+ best_book = books.max do |b|
+    b[:rating]
+ end
+
+#  best_book = books.max{|b| b[:rating]} 
+ 
  binding.pry  
   # - so that anytime we make loop, it will stop
