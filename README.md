@@ -2,8 +2,8 @@
  require 'pry'
 
 # enumerable, traversal ,searching and sorting
-
-# books =[
+ <br/>
+books =[
     {
         title:'intro to ruby programming beginner',
         prices: 23.29,
@@ -12,6 +12,7 @@
        publisher: 'codemy.com',
         description:'great introduction to ruby for new programmers'
   },
+  <br/>
   {
         title:'intro to react framework for programming beginner',
         prices: 13.99,
@@ -20,6 +21,7 @@
         publisher: 'codemy.com',
         description:'great introduction to react framework for new programmers'
     },
+    </br>
     {
         title:'intro to javascript programming beginner',
         prices: 35.99,
@@ -28,6 +30,7 @@
         publisher: 'www3school.com',
         description:'great introduction to ruby for new programmers'
     },
+    <br/>
   {
      title:'intro to html programming beginner',
        prices: 13.29,
@@ -36,8 +39,8 @@
         publisher: 'moshmoji.com',
        description:'great introduction to html for new programmers'
     },
-# ]
-
+ ]
+<br/>
 # each is similar to for each method in javscript
 # this loops through the array
 # def print_books
